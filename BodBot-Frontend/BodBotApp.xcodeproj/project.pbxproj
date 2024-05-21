@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D784F2E2BE0918200F14FDF /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D784F2D2BE0918200F14FDF /* HomePage.swift */; };
+		6DB347E42BDB7F2000F078FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB347E32BDB7F2000F078FF /* Assets.xcassets */; };
+		6DB347E52BDB7FC600F078FF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A7B2BDB6C8400D46F04 /* LoginView.swift */; };
+		6DBA3B5B2BE0835700ECA3C4 /* AuthTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBA3B5A2BE0835700ECA3C4 /* AuthTokenManager.swift */; };
+		6DE9F9F92BDB81FC007033DD /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9F9F82BDB81FC007033DD /* LoginManager.swift */; };
+		6E4625272BE06FFD00FDCC97 /* RecommendedWorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4625262BE06FFD00FDCC97 /* RecommendedWorkoutsViewModel.swift */; };
+		6E4625292BE0788500FDCC97 /* LikedWorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4625282BE0788400FDCC97 /* LikedWorkoutsViewModel.swift */; };
+		6E46252D2BE0931700FDCC97 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46252C2BE0931700FDCC97 /* ProfileManager.swift */; };
+		6EAD0A6F2BDB6BE300D46F04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD0A6E2BDB6BE300D46F04 /* Preview Assets.xcassets */; };
+		6EAD0A762BDB6C5100D46F04 /* BodBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A752BDB6C5100D46F04 /* BodBotApp.swift */; };
+		6EAD0A782BDB6C6C00D46F04 /* GeneralWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A772BDB6C6C00D46F04 /* GeneralWorkouts.swift */; };
+		6EAD0A7E2BDB6C8B00D46F04 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A7D2BDB6C8B00D46F04 /* Profile.swift */; };
+		6EAD0A802BDB6C9000D46F04 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A7F2BDB6C9000D46F04 /* SignUpView.swift */; };
+		6EAD0A822BDB6C9600D46F04 /* WorkoutLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A812BDB6C9600D46F04 /* WorkoutLog.swift */; };
+		6EAD0A842BDB6CE300D46F04 /* MainTabContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A832BDB6CE300D46F04 /* MainTabContainerView.swift */; };
+		6EAD0A8A2BDB999300D46F04 /* RegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A892BDB999300D46F04 /* RegistrationManager.swift */; };
+		6EAD0A8C2BDDCCDD00D46F04 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A8B2BDDCCDD00D46F04 /* Workout.swift */; };
+		6EAD0A8E2BDDCD9D00D46F04 /* GeneralWorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD0A8D2BDDCD9D00D46F04 /* GeneralWorkoutsViewModel.swift */; };
+		AFAFF0CA2BDC689C0023F978 /* RecommendedWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAFF0C92BDC689C0023F978 /* RecommendedWorkouts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D784F2D2BE0918200F14FDF /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		6DB347E32BDB7F2000F078FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBA3B5A2BE0835700ECA3C4 /* AuthTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenManager.swift; sourceTree = "<group>"; };
+		6DE9F9F82BDB81FC007033DD /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		6E4625262BE06FFD00FDCC97 /* RecommendedWorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedWorkoutsViewModel.swift; sourceTree = "<group>"; };
+		6E4625282BE0788400FDCC97 /* LikedWorkoutsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedWorkoutsViewModel.swift; sourceTree = "<group>"; };
+		6E46252C2BE0931700FDCC97 /* ProfileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		6EAD0A642BDB6BE100D46F04 /* BodBotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodBotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAD0A6E2BDB6BE300D46F04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EAD0A752BDB6C5100D46F04 /* BodBotApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodBotApp.swift; sourceTree = "<group>"; };
+		6EAD0A772BDB6C6C00D46F04 /* GeneralWorkouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralWorkouts.swift; sourceTree = "<group>"; };
+		6EAD0A7B2BDB6C8400D46F04 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6EAD0A7D2BDB6C8B00D46F04 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		6EAD0A7F2BDB6C9000D46F04 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6EAD0A812BDB6C9600D46F04 /* WorkoutLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutLog.swift; sourceTree = "<group>"; };
+		6EAD0A832BDB6CE300D46F04 /* MainTabContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabContainerView.swift; sourceTree = "<group>"; };
+		6EAD0A892BDB999300D46F04 /* RegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
+		6EAD0A8B2BDDCCDD00D46F04 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		6EAD0A8D2BDDCD9D00D46F04 /* GeneralWorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralWorkoutsViewModel.swift; sourceTree = "<group>"; };
+		AFAFF0C92BDC689C0023F978 /* RecommendedWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedWorkouts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EAD0A612BDB6BE100D46F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EAD0A5B2BDB6BE100D46F04 = {
+			isa = PBXGroup;
+			children = (
+				6EAD0A662BDB6BE100D46F04 /* BodBotApp */,
+				6EAD0A652BDB6BE100D46F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EAD0A652BDB6BE100D46F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAD0A642BDB6BE100D46F04 /* BodBotApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAD0A662BDB6BE100D46F04 /* BodBotApp */ = {
+			isa = PBXGroup;
+			children = (
+				6DE9F9F82BDB81FC007033DD /* LoginManager.swift */,
+				6EAD0A8B2BDDCCDD00D46F04 /* Workout.swift */,
+				6EAD0A8D2BDDCD9D00D46F04 /* GeneralWorkoutsViewModel.swift */,
+				AFAFF0C92BDC689C0023F978 /* RecommendedWorkouts.swift */,
+				6E4625262BE06FFD00FDCC97 /* RecommendedWorkoutsViewModel.swift */,
+				6EAD0A752BDB6C5100D46F04 /* BodBotApp.swift */,
+				6EAD0A812BDB6C9600D46F04 /* WorkoutLog.swift */,
+				6EAD0A772BDB6C6C00D46F04 /* GeneralWorkouts.swift */,
+				6EAD0A892BDB999300D46F04 /* RegistrationManager.swift */,
+				6EAD0A7B2BDB6C8400D46F04 /* LoginView.swift */,
+				6EAD0A832BDB6CE300D46F04 /* MainTabContainerView.swift */,
+				6E46252C2BE0931700FDCC97 /* ProfileManager.swift */,
+				6E4625282BE0788400FDCC97 /* LikedWorkoutsViewModel.swift */,
+				6EAD0A7F2BDB6C9000D46F04 /* SignUpView.swift */,
+				6EAD0A7D2BDB6C8B00D46F04 /* Profile.swift */,
+				6DB347E32BDB7F2000F078FF /* Assets.xcassets */,
+				6EAD0A6D2BDB6BE300D46F04 /* Preview Content */,
+				6DBA3B5A2BE0835700ECA3C4 /* AuthTokenManager.swift */,
+				6D784F2D2BE0918200F14FDF /* HomePage.swift */,
+			);
+			path = BodBotApp;
+			sourceTree = "<group>";
+		};
+		6EAD0A6D2BDB6BE300D46F04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EAD0A6E2BDB6BE300D46F04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EAD0A632BDB6BE100D46F04 /* BodBotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EAD0A722BDB6BE300D46F04 /* Build configuration list for PBXNativeTarget "BodBotApp" */;
+			buildPhases = (
+				6EAD0A602BDB6BE100D46F04 /* Sources */,
+				6EAD0A612BDB6BE100D46F04 /* Frameworks */,
+				6EAD0A622BDB6BE100D46F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodBotApp;
+			productName = BodBotApp;
+			productReference = 6EAD0A642BDB6BE100D46F04 /* BodBotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EAD0A5C2BDB6BE100D46F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6EAD0A632BDB6BE100D46F04 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 6EAD0A5F2BDB6BE100D46F04 /* Build configuration list for PBXProject "BodBotApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EAD0A5B2BDB6BE100D46F04;
+			productRefGroup = 6EAD0A652BDB6BE100D46F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EAD0A632BDB6BE100D46F04 /* BodBotApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EAD0A622BDB6BE100D46F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB347E42BDB7F2000F078FF /* Assets.xcassets in Resources */,
+				6EAD0A6F2BDB6BE300D46F04 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EAD0A602BDB6BE100D46F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAD0A842BDB6CE300D46F04 /* MainTabContainerView.swift in Sources */,
+				6EAD0A8E2BDDCD9D00D46F04 /* GeneralWorkoutsViewModel.swift in Sources */,
+				6E4625272BE06FFD00FDCC97 /* RecommendedWorkoutsViewModel.swift in Sources */,
+				6EAD0A822BDB6C9600D46F04 /* WorkoutLog.swift in Sources */,
+				6D784F2E2BE0918200F14FDF /* HomePage.swift in Sources */,
+				6EAD0A782BDB6C6C00D46F04 /* GeneralWorkouts.swift in Sources */,
+				6EAD0A7E2BDB6C8B00D46F04 /* Profile.swift in Sources */,
+				AFAFF0CA2BDC689C0023F978 /* RecommendedWorkouts.swift in Sources */,
+				6EAD0A802BDB6C9000D46F04 /* SignUpView.swift in Sources */,
+				6EAD0A8A2BDB999300D46F04 /* RegistrationManager.swift in Sources */,
+				6DE9F9F92BDB81FC007033DD /* LoginManager.swift in Sources */,
+				6EAD0A762BDB6C5100D46F04 /* BodBotApp.swift in Sources */,
+				6E46252D2BE0931700FDCC97 /* ProfileManager.swift in Sources */,
+				6DB347E52BDB7FC600F078FF /* LoginView.swift in Sources */,
+				6E4625292BE0788500FDCC97 /* LikedWorkoutsViewModel.swift in Sources */,
+				6EAD0A8C2BDDCCDD00D46F04 /* Workout.swift in Sources */,
+				6DBA3B5B2BE0835700ECA3C4 /* AuthTokenManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EAD0A702BDB6BE300D46F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EAD0A712BDB6BE300D46F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EAD0A732BDB6BE300D46F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodBotApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSCI201.BodBotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EAD0A742BDB6BE300D46F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodBotApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSCI201.BodBotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EAD0A5F2BDB6BE100D46F04 /* Build configuration list for PBXProject "BodBotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAD0A702BDB6BE300D46F04 /* Debug */,
+				6EAD0A712BDB6BE300D46F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EAD0A722BDB6BE300D46F04 /* Build configuration list for PBXNativeTarget "BodBotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAD0A732BDB6BE300D46F04 /* Debug */,
+				6EAD0A742BDB6BE300D46F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EAD0A5C2BDB6BE100D46F04 /* Project object */;
+}
