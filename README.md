@@ -1,2 +1,2 @@
 # BodBot
-CSCI201 Group Project
+CSCI201 Final Group Project
